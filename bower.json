@@ -1,0 +1,30 @@
+{
+  "name": "storage.Ninja.JS",
+  "version": "0.0.0",
+  "authors": [
+    "Cleber de Moraes Goncalves <cleber.programmer@hotmail.com>"
+  ],
+  "description": "Uma interface de armazenamento que oferece acesso ao armazenamento, que lhe permite, por exemplo, adicionar, modificar ou excluir itens de dados armazenados",
+  "main": "storage.js",
+  "keywords": [
+    "javascript"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Bibizzy/storage.Ninja.JS",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Ninja.JS": "*",
+    "clone.Ninja.JS": "*",
+    "dispatcher.Ninja.JS": "*",
+    "format.Ninja.JS": "*",
+    "extend.Ninja.JS": "*",
+    "keys.Ninja.JS": "*",
+    "restrict.Ninja.JS": "*"
+  }
+}

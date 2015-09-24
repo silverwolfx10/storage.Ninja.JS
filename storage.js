@@ -18,9 +18,10 @@ this.Ninja.module('$storage', [
   '$dispatcher',
   '$format',
   '$extend',
+  '$keys',
   '$restrict'
 
-], function ($clone, $dispatcher, $format, $extend, $restrict) {
+], function ($clone, $dispatcher, $format, $extend, $keys, $restrict) {
 
   /**
    * Uma interface de armazenamento que oferece acesso ao
